@@ -1,0 +1,49 @@
+/* Connect.css */
+
+.container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1 {
+  padding-bottom: 1px;
+}
+
+.header {
+  text-align: center;
+}
+
+button {
+  border: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.primary {
+  padding-bottom: 10px;
+}
+.secondary {
+  background-color: #e15241;
+  color: white;
+  width: 100%;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+button:hover {
+  background-color: #13315d;
+}
+
+.secondary:hover {
+  background-color: #d32815;
+}
