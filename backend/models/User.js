@@ -1,4 +1,6 @@
 // User.js
+const request = require("request");
+
 const mongoose = require("mongoose");
 
 const userSchema = new mongoose.Schema({

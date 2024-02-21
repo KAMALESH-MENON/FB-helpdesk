@@ -9,9 +9,10 @@ import {
 } from "react-router-dom";
 import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
-import Home from "./components/Home/Home"; // Assuming you have a Home component
+import Home from "./components/Home/Home"; 
 import Connect from "./components/Connect/Connect";
 import Dashboard from "./components/Dashboard/Dashboard"
+
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/connect" element={<Connect />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/dashboard" element={<Dashboard/>} />
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/" element={<Login />} />
         </Routes>
       </div>
